@@ -4,7 +4,56 @@
 }
 
 .header-bottom {
-    height: 500px;
+    height: 700px;
     border: 3px solid rgb(207, 238, 94);
+}
 
+.text-portfolio {
+    height: 150px;
+    border: 3px solid rgb(255, 0, 221);
+}
+
+.portfolio-img:nth-of-type(even) {
+    height: 500px;
+    border: 3px dashed rgb(253, 148, 28);
+}
+
+.portfolio-img:nth-of-type(odd) {
+    height: 500px;
+    border: 3px solid rgb(36, 152, 247);
+}
+
+.about-title {
+    height: 150px;
+    border: 3px solid rgb(241, 25, 25);
+}
+
+blockquote {
+    height: 150px;
+    border: 3px dashed darkgoldenrod;
+}
+
+.about-btt-download {
+    height: 150px;
+    border: 3px solid darkgray;
+}
+
+.contact-me {
+    height: 500px;
+    border: 3px solid darkgreen;
+}
+
+.contact div {
+    height: 100px;
+    border: 3px dashed rgb(253, 148, 28);
+}
+
+address {
+    height: 100px;
+    border: 3px dashed lightpink;
+}
+
+.info-website {
+    height: 100px;
+    border: 3px dashed rebeccapurple;
 }
