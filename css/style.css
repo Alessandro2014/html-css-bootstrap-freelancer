@@ -1,3 +1,4 @@
+/* HEADER */
 .header-top {
     height: 80px;
     border: 3px solid lime;
@@ -8,18 +9,20 @@
     border: 3px solid rgb(207, 238, 94);
 }
 
+/* MAIN */
+
 .text-portfolio {
     height: 150px;
     border: 3px solid rgb(255, 0, 221);
 }
 
 .portfolio-img:nth-of-type(even) {
-    height: 500px;
+    height: 300px;
     border: 3px dashed rgb(253, 148, 28);
 }
 
 .portfolio-img:nth-of-type(odd) {
-    height: 500px;
+    height: 300px;
     border: 3px solid rgb(36, 152, 247);
 }
 
@@ -43,6 +46,8 @@ blockquote {
     border: 3px solid darkgreen;
 }
 
+/* FOOTER */
+
 .contact div {
     height: 100px;
     border: 3px dashed rgb(253, 148, 28);
@@ -62,7 +67,7 @@ address {
     background-color: #1ABC9C;
 }
 
-.bg-footer {
+.bg-header-footer {
     background-color: #3A546D;
 }
 
