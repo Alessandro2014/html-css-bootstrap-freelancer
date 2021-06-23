@@ -1,6 +1,6 @@
+
 /* HEADER */
 .header-top {
-    height: 80px;
     border: 3px solid lime;
 }
 
@@ -67,10 +67,10 @@ address {
     background-color: #1ABC9C;
 }
 
-.bg-header-footer {
+.footer-top {
     background-color: #3A546D;
 }
 
-.bg-footer-bottom {
+.footer-bottom, .bg-darkblue {
     background-color: #2C3E50;
 }
