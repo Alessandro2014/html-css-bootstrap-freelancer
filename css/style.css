@@ -10,30 +10,23 @@
 
 /* MAIN */
 
-.line {
-    border-bottom: 5px dolid black;
+.star::before,
+.star::after {
+    content: "";
+    width: 15%;
+    height: 6px;
+    border-radius: 3px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 6px;
+}
+
+.star {
+    font-size: 44px;
 }
 
 
-.about-title {
-    height: 150px;
-    border: 3px solid rgb(241, 25, 25);
-}
-
-blockquote {
-    height: 150px;
-    border: 3px dashed darkgoldenrod;
-}
-
-.about-btt-download {
-    height: 150px;
-    border: 3px solid darkgray;
-}
-
-.contact-me {
-    height: 500px;
-    border: 3px solid darkgreen;
-}
 
 /* FOOTER */
 
@@ -62,4 +55,5 @@ address {
 
 .footer-bottom, .bg-darkblue {
     background-color: #2C3E50;
+    text-align: ;
 }
