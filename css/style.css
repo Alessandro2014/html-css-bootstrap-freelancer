@@ -5,26 +5,15 @@
 }
 
 .header-bottom {
-    height: 700px;
     border: 3px solid rgb(207, 238, 94);
 }
 
 /* MAIN */
 
-.text-portfolio {
-    height: 150px;
-    border: 3px solid rgb(255, 0, 221);
+.line {
+    border-bottom: 5px dolid black;
 }
 
-.portfolio-img:nth-of-type(even) {
-    height: 300px;
-    border: 3px dashed rgb(253, 148, 28);
-}
-
-.portfolio-img:nth-of-type(odd) {
-    height: 300px;
-    border: 3px solid rgb(36, 152, 247);
-}
 
 .about-title {
     height: 150px;
