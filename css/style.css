@@ -10,8 +10,10 @@
 
 /* MAIN */
 
-.star::before,
-.star::after {
+.star-white::before,
+.star-white::after,
+.star-black::before,
+.star-black::after {
     content: "";
     width: 15%;
     height: 6px;
@@ -22,9 +24,37 @@
     line-height: 6px;
 }
 
-.star {
+.star-white,
+.star-black {
     font-size: 44px;
 }
+
+.section-portfolio .star-black, 
+.section-portfolio h2,
+.section-contact-me .star-black,
+.section-contact-me h2 {
+    color: black;
+}
+
+.section-portfolio .star-black::before,
+.section-portfolio .star-black::after,
+.section-contact-me .star-black::before,
+.section-contact-me .star-black::after  {
+    background-color: black;
+}
+
+#btn-dowload {
+    border: 1px solid white;
+}
+
+.section-contact-me .form-control {
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+
 
 
 
