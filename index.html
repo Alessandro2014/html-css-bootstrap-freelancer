@@ -87,28 +87,32 @@
                     <div class="star-black">
                     <i class="fas fa-star"></i>
                     </div>
+                    
                 </div>
-                <form class="text-dark text-start g-4 py-4 offset-2 col-s-8 offset-md-2 col-md-8 offset-lg-2 col-lg-8">
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Name</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <!-- correggere type e id -->
+
+                <form class="text-dark text-start g-4 py-4 ">
+                    <div class="mb-3 offset-2 col-s-8 offset-md-2 col-md-8 offset-lg-2 col-lg-8">
+                      <label for="name" class="form-label">Name</label>
+                      <input type="text" class="form-control" id="name" name="name">
                     </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <div class="mb-3 offset-2 col-s-8 offset-md-2 col-md-8 offset-lg-2 col-lg-8">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
                     </div>
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Phone Number</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    <div class="mb-3 offset-2 col-s-8 offset-md-2 col-md-8 offset-lg-2 col-lg-8">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="phone" class="form-control" id="phone">
                       </div>
-                      <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                      <div class="mb-3 offset-2 col-s-8 offset-md-2 col-md-8 offset-lg-2 col-lg-8">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="4"></textarea>
                       </div>
 
-                    <div class="mb-3 form-check">
+                    <div class="my-3 form-check offset-2 p-0">
+                        <button type="submit" class="btn bg-acquamarine text-white">Send</button>
+
                     </div>
-                    <button type="submit" class="btn bg-acquamarine text-white">Send</button>
                   </form>
             </div>
         </section>
@@ -125,10 +129,10 @@
                     <div class="col-12 col-md-4 my-sm-3">
                         <h5 class="text-uppercase">around the web</h5>
                         <div class="fs-5">
-                        <i class="fab fa-facebook-f rounded-circle px-3 py-2 border border-white"></i>
-                        <i class="fab fa-google-plus-g rounded-circle rounded-circle p-2 border border-white"></i>
-                        <i class="fab fa-twitter rounded-circle rounded-circle p-2 border border-white"></i>
-                        <i class="fab fa-linkedin-in rounded-circle rounded-circle p-2 border border-white"></i>
+                        <i class="fab fa-facebook rounded-circle px-2 py-2 border border-white mx-1"></i>
+                        <i class="fab fa-google-plus-g rounded-circle rounded-circle p-2 border border-white mx-1"></i>
+                        <i class="fab fa-twitter rounded-circle rounded-circle p-2 border border-white mx-1"></i>
+                        <i class="fab fa-linkedin-in rounded-circle rounded-circle p-2 border border-white mx-1"></i>
                         </div>
                         
                     </div>
@@ -140,7 +144,7 @@
             </div>
         </div>
 
-        <div class="info-website footer-bottom py-5">Copiright Your Website 2019</div>
+        <div class="info-website footer-bottom py-4">Copiright Your Website 2019</div>
     </footer>
     
 </body>
