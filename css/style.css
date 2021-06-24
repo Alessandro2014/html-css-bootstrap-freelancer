@@ -1,12 +1,20 @@
+/* COLORS */
+
+.bg-acquamarine {
+    background-color: #1ABC9C;
+}
+
+.footer-top {
+    background-color: #3A546D;
+}
+
+.footer-bottom, .bg-darkblue {
+    background-color: #2C3E50;
+    text-align: ;
+}
 
 /* HEADER */
-.header-top {
-    border: 3px solid lime;
-}
 
-.header-bottom {
-    border: 3px solid rgb(207, 238, 94);
-}
 
 /* MAIN */
 
@@ -54,36 +62,10 @@
     border-right: 0;
 }
 
-
-
-
-
 /* FOOTER */
 
-.contact div {
-    height: 100px;
-    border: 3px dashed rgb(253, 148, 28);
+.link-about {
+    color: #1ABC9C;
 }
 
-address {
-    height: 100px;
-    border: 3px dashed lightpink;
-}
 
-.info-website {
-    height: 100px;
-    border: 3px dashed rebeccapurple;
-}
-
-.bg-acquamarine {
-    background-color: #1ABC9C;
-}
-
-.footer-top {
-    background-color: #3A546D;
-}
-
-.footer-bottom, .bg-darkblue {
-    background-color: #2C3E50;
-    text-align: ;
-}
